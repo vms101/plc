@@ -3,7 +3,7 @@ package slide2;
 public class Calculadora {
 	private int soma;
 
-	public int somaArray(int [] array) {
+	public synchronized int somaArray(int [] array) {
 		soma = 0;
 
 		for(int i=0; i<array.length; i++) {
