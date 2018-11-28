@@ -17,6 +17,7 @@ public class TiqueTaque {
 
 		try {
 			while(tique) {
+				System.out.println("Tique esperando");
 				wait();
 			}
 		} catch (InterruptedException e) {
@@ -38,6 +39,7 @@ public class TiqueTaque {
 
 		try {
 			while(!tique) {
+				System.out.println("Taque esperando");
 				wait();
 			}
 		} catch (InterruptedException e) {
